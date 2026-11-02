@@ -1,0 +1,21 @@
+/* Page basics; section styling is inline in index.html (exported from the design canvas). */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: #F5F6F3; font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #17231F; }
+a { color: #1E5A49; }
+a:hover { color: #123A2F; }
+summary { cursor: pointer; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+details[open] .faq-plus { transform: rotate(45deg); }
+input:focus, select:focus, button:focus-visible, a:focus-visible, summary:focus-visible {
+  outline: 3px solid #8FBFAF;
+  outline-offset: 2px;
+}
+button[disabled] { opacity: 0.7; cursor: progress; }
+
+/* Skip link, visible on keyboard focus */
+.skip { position: absolute; left: 16px; top: -48px; background: #17231F; color: #FFFFFF; padding: 10px 16px; border-radius: 6px; z-index: 10; }
+.skip:focus { top: 12px; color: #FFFFFF; }
+
+/* Spam honeypot, hidden from people */
+.hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
