@@ -85,7 +85,7 @@ Repository → **Settings → Pages**
 ## 6. Before you announce it
 
 - [ ] `YOUR_FORM_ID` replaced and a test submission received
-- [ ] `[NUMBER]` (pilot spots) and `Anson [LAST NAME]` filled in `index.html`
+- [ ] `[NUMBER]` (pilot spots) and the founder name filled in `index.html`
 - [ ] `[DATE]` and `[CONTACT EMAIL]` filled in `privacy.html`
 - [ ] Trademark search on "Casewright" (USPTO classes 9 and 42)
 - [ ] Security claims in the page match what the service actually does at launch
